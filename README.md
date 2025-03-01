@@ -20,24 +20,24 @@ An application demonstrating advanced localization for the Flet framework with d
 ```bash
 pip install flet
 ```
-## Štruktúra projektu 📂
+## Project structure 📂
 ```bash
-├── main.py                # Hlavný vstupný bod aplikácie
-├── locales/               # Modul pre lokalizáciu
-│   ├── localization.py    # Implementácia lokalizačného servisu
-│   └── ...                # Ďalšie lokalizačné súbory
-├── translations/          # Prekladové súbory
-│   ├── en.json            # Anglické preklady
-│   ├── sk.json            # Slovenské preklady
-│   └── cs.json            # České preklady
-├── views/                 # UI views
-│   └── login_page.py      # Príklad login obrazovky
-└── assets/                # Statické assets
+├── main.py              # Main application entry point
+├── locales/             # Localization module
+│ ├── localization.py    # Localization service implementation
+│ └── ...                # Additional localization files
+├── translations/        # Translation files
+│ ├── en.json            # English translations
+│ ├── sk.json            # Slovak translations
+│ └── cs.json            # Czech translations
+├── views/               # UI views
+│ └── login_page.py      # Example login screen
+└── assets/              # Static assets
 ```
-## Konfigurácia prekladov 🈯
+## Configuring translations 🈯
 
-Vytvorenie prekladových súborov:
-Každý jazyk má vlastný JSON súbor v priečinku translations:
+Creating translation files:
+Each language has its own JSON file in the translations folder:
 
 ```bash
 // sk.json
