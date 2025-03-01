@@ -1,0 +1,21 @@
+{
+  "welcome_message": "Welcome to the app!",
+  "app_title": "Flet Localization",
+  "email": "Email",
+  "password": "Password",
+  "login": "Log in",
+  "home": "Home",
+  "profile": "Profile",
+  "settings": "Settings",
+  "logout": "Log out",
+  "language_selector": "Select language", 
+  "missing_key": "Missing translation", 
+  "email_label": "user@example.com",
+  "accept_terms1": "Agree",
+  "accept_terms2": "Disagree",
+  "language": "Language",
+  "czech_option": "Czech",
+  "english_option": "English",
+  "slovak_option": "Slovak",
+  "more": "More"
+}

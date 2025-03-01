@@ -1,0 +1,21 @@
+{
+  "welcome_message": "Vítejte v aplikaci!",
+  "app_title": "Flet Lokalizace",
+  "email": "E-mail",
+  "password": "Heslo",
+  "login": "Přihlásit se",
+  "home": "Domů",
+  "profile": "Profil",
+  "settings": "Nastavení",
+  "logout": "Odhlasit se",
+  "language_selector": "Vybrat jazyk",
+  "missing_key": "Chyba prekladu",
+  "email_label": "user@example.com",
+  "accept_terms1": "Souhlasím",
+  "accept_terms2": "NeSouhlasím",
+  "language": "Jazyk",
+  "czech_option": "Český",
+  "english_option": "Anglický",
+  "slovak_option": "Slovenský",
+  "more": "Více"
+}
