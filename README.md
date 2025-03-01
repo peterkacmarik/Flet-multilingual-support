@@ -36,7 +36,7 @@ pip install flet
 ```
 ## Configuring translations 🈯
 
-Creating translation files:
+1. Creating translation files:
 Each language has its own JSON file in the translations folder:
 
 ```bash
@@ -49,3 +49,4 @@ Each language has its own JSON file in the translations folder:
   "login": "Prihlásiť"
 }
 ```
+2. Adding a new language:
