@@ -21,7 +21,7 @@ An application demonstrating advanced localization for the Flet framework with d
 pip install flet
 ```
 ## Štruktúra projektu 📂
-
+```bash
 ├── main.py                # Hlavný vstupný bod aplikácie
 ├── locales/               # Modul pre lokalizáciu
 │   ├── localization.py    # Implementácia lokalizačného servisu
@@ -33,14 +33,14 @@ pip install flet
 ├── views/                 # UI views
 │   └── login_page.py      # Príklad login obrazovky
 └── assets/                # Statické assets
-
+```
 ## Konfigurácia prekladov 🈯
 
 Vytvorenie prekladových súborov:
 Každý jazyk má vlastný JSON súbor v priečinku translations:
 
-// sk.json
 ```bash
+// sk.json
 {
   "app_title": "Flet Lokalizácia",
   "welcome_message": "Vitajte v aplikácií!",
