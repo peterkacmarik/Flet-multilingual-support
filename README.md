@@ -121,11 +121,9 @@ flet run main.py
 ```
 ## Extending functionality 🛠️
 ### Adding a new component
-Create a new class inheriting from LocalizedMixin
-
-Implement the _apply_localized_text() method
-
-Register the component in the LocalizationService
+1. Create a new class inheriting from LocalizedMixin
+2. Implement the _apply_localized_text() method
+3. Register the component in the LocalizationService
 ```bash
 class LocalizedCheckbox(LocalizedMixin, ft.Checkbox):
     def __init__(self, localization, text_key, **kwargs):
@@ -136,8 +134,8 @@ class LocalizedCheckbox(LocalizedMixin, ft.Checkbox):
         self.label = self.localization.get(self.text_key)
 ```
 ## Adding new translation keys
-Add key to all JSON files in translations
-Use new key in components
+1. Add key to all JSON files in translations
+2. Use new key in components
 ```bash
 // en.json
 {
