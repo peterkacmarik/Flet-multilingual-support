@@ -69,3 +69,12 @@ LocalizedText(
     weight=ft.FontWeight.BOLD
 )
 ```
+### Text field
+```bash
+LocalizedTextField(
+    localization_service,
+    text_key="email",
+    default="Email",
+    hint_text="user@example.com"
+)
+```
