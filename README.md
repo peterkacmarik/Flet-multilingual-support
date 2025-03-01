@@ -1,4 +1,4 @@
-# Flet-multilingual-support
+# Flet Multilingual Support / Localization
 An application demonstrating advanced localization for the Flet framework with dynamic language switching and automatic updating of UI components.
 
 ## Main features ✨
