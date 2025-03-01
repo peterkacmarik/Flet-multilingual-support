@@ -152,3 +152,4 @@ Vytvoril: [Peter Kacmarik]
 Verzia: 1.0.0
 Posledná aktualizácia: {3.1.2025}
 ```
+The code is not maintained.
