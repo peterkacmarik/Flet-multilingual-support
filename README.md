@@ -39,3 +39,13 @@ pip install flet
 Vytvorenie prekladových súborov:
 Každý jazyk má vlastný JSON súbor v priečinku translations:
 
+// sk.json
+```bash
+{
+  "app_title": "Flet Lokalizácia",
+  "welcome_message": "Vitajte v aplikácií!",
+  "email": "Email",
+  "password": "Heslo",
+  "login": "Prihlásiť"
+}
+```
