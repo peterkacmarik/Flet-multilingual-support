@@ -78,3 +78,33 @@ LocalizedTextField(
     hint_text="user@example.com"
 )
 ```
+### Buttons
+```bash
+LocalizedElevatedButton(
+    localization_service,
+    text_key="login",
+    default="Login",
+    on_click=handle_login
+)
+```
+### Navigation
+```bash
+LocalizedNavigationBar(
+    localization_service,
+    destinations=[
+        {"key": "home", "icon": ft.Icons.HOME},
+        {"key": "settings", "icon": ft.Icons.SETTINGS}
+    ]
+)
+```
+### Dropdown menu
+```bash
+LocalizedDropdown(
+    localization_service,
+    label_config={"key": "language", "default": "Jazyk"},
+    options_config=[
+        {"key": "english_option", "default": "English"},
+        {"key": "slovak_option", "default": "Slovenčina"}
+    ]
+)
+```
