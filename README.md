@@ -50,3 +50,10 @@ Each language has its own JSON file in the translations folder:
 }
 ```
 2. Adding a new language:
+```bash
+# V LocalizationService.__init__
+self.supported_locales = {
+    ...
+    "de": LocaleInfo("de", "Deutsch", TextDirection.LTR, "🇩🇪")
+}
+```
