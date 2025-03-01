@@ -108,3 +108,42 @@ LocalizedDropdown(
     ]
 )
 ```
+## Dynamic language change 🔄
+```bash
+# Switch language
+localization_service.switch_locale("sk")
+
+# Automatic update of all registered components
+```
+## Launching the app 🚀
+```bash
+flet run main.py
+```
+## Extending functionality 🛠️
+### Adding a new component
+Create a new class inheriting from LocalizedMixin
+
+Implement the _apply_localized_text() method
+
+Register the component in the LocalizationService
+```bash
+class LocalizedCheckbox(LocalizedMixin, ft.Checkbox):
+    def __init__(self, localization, text_key, **kwargs):
+        super().__init__(localization=localization, **kwargs)
+        self.text_key = text_key
+    
+    def _apply_localized_text(self):
+        self.label = self.localization.get(self.text_key)
+```
+## Adding new translation keys
+Add key to all JSON files in translations
+Use new key in components
+```bash
+// en.json
+{
+  "new_feature": "Awesome new feature!"
+}
+```
+```bash
+LocalizedText(localization, "new_feature")
+```
