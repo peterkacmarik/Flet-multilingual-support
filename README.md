@@ -57,3 +57,15 @@ self.supported_locales = {
     "de": LocaleInfo("de", "Deutsch", TextDirection.LTR, "🇩🇪")
 }
 ```
+## Using components �
+
+### Basic text
+```bash
+LocalizedText(
+    localization_service,
+    text_key="welcome_message",
+    default="Welcome!",
+    size=24,
+    weight=ft.FontWeight.BOLD
+)
+```
