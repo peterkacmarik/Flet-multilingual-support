@@ -145,3 +145,9 @@ class LocalizedCheckbox(LocalizedMixin, ft.Checkbox):
 ```bash
 LocalizedText(localization, "new_feature")
 ```
+## Licencia 📄
+MIT License - free to use for commercial and non-commercial projects
+
+Vytvoril: [Peter Kacmarik]
+Verzia: 1.0.0
+Posledná aktualizácia: {3.1.2025}
